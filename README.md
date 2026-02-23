@@ -13,3 +13,5 @@ What I've learnt:
 - **Validation:** isNaN() allowed me to validate the inputs and avoid errors
 - **UI:** finalAmount.toFixed(2) kept the final volume amount to two decimal places to make real-world application easier (in clinical practice, the smallest syringes only measure to two decimal places!), and clean CSS applicable in clinical environments
 - **DOM Manipulation:** resultDiv.style.display toggled the appearance of the final volume at the bottom of the calculator once the calculation was complete
+
+- **Link to live site:** https://chloeviolet.github.io/veterinary-dosage-calculator/
