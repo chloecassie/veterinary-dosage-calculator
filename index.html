@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Veterinary Dosage Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1>🐾 Veterinary Dosage Calculator</h1>
+    <p>Calculate liquid medication dosages quickly and easily! 💊</p>
+
+    <div class="calculator-container">
+
+      <div class="input-value">
+        <label>Weight:</label>
+        <input type="text" placeholder="e.g. 5" class="input-box" id="weight">
+      </div>
+
+      <div class="input-value">
+        <label>Dose:</label>
+        <input type="text" placeholder="e.g. 0.1" class="input-box" id="dose">
+      </div>
+
+      <div class="input-value">
+        <label>Concentration:</label>
+        <input type="text" placeholder="e.g. 10" class="input-box" id="concentration">
+      </div>
+      
+      <div class="button-container" id="calculateButton">
+        <button>Calculate dose</button>
+      </div>
+
+      <div class="hidden-result" id="result">
+        <p>Give the patient:</p>
+        <span id="finalVolume">0</span> ml
+      </div>
+
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
