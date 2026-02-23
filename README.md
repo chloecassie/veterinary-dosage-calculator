@@ -1,7 +1,8 @@
 # veterinary-dosage-calculator
-A JavaScript liquid dosage calculator for veterinary professionals to use.
+A JavaScript dosage calculator for veterinary professionals to use.
 
-**Problem statement:** In veterinary practice, dosage calculations must be performed under significant time pressure. Inaccuracy can lead to medical errors. **Solution:** I built a dosage calculator in JavaScript to automate the formula (weight * dose) / concentration = volume to be administered.
+**Problem statement:** In veterinary practice, dosage calculations must be performed under significant time pressure. Inaccuracy can lead to medical errors.
+**Solution:** I built a dosage calculator in JavaScript to automate the formula (weight * dose) / concentration = volume to be administered.
 
 **Tech stack:** HTML, CSS, JavaScript.
 
